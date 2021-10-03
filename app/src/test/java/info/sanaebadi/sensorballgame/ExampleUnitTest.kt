@@ -1,4 +1,4 @@
-package com.example.sensorballgame
+package info.sanaebadi.sensorballgame
 
 import org.junit.Test
 

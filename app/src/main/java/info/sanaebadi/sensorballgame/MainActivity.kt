@@ -1,4 +1,4 @@
-package com.example.sensorballgame
+package info.sanaebadi.sensorballgame
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
