@@ -16,26 +16,27 @@ import info.sanaebadi.sensorballgame.databinding.FragmentOnboardingBinding
 
 @AndroidEntryPoint
 class OnboardingFragment : Fragment() {
-    private val viewModel:OnboardingViewModel by viewModels()
+    private val viewModel: OnboardingViewModel by viewModels()
     private var _binding: FragmentOnboardingBinding? = null
     private val binding get() = _binding!!
 
     private val introSliderAdapter = IntroSliderAdapter(
         listOf(
             IntroSlide(
-                "TEST",
-                "Discover tips and advice to help you to help maintain transform and main your health",
-                "lottie/ball-bounce.json"
+                "hey there ^_^ ",
+                "Hi, Welcome to my game.\n" +
+                        "Learn how to play.",
+                "onboardingwelcome.json"
             ),
             IntroSlide(
-                "TEST",
-                "Discover tips and advice to help you to help maintain transform and main your health",
-                "lottie/ball-bounce.json"
+                "How to play!",
+                "Move your phone vertically to the sides with the sensor so that the balls are in a horizontal direction",
+                "gameloader.json"
             ),
             IntroSlide(
-                "TEST",
-                "Discover tips and advice to help you to help maintain transform and main your health",
-                "lottie/ball-bounce.json"
+                "The last point!",
+                " Are you ready ?! play and enjoy ^_^",
+                "balls.json"
             )
         )
     )
@@ -63,14 +64,14 @@ class OnboardingFragment : Fragment() {
                             R.anim.on_boarding
                         )
                         binding.buttonNext.animation = animation
-                        binding.buttonNext.text = "Finish"
+                        binding.buttonNext.text =requireContext().getString(com.comma.uikit.R.string.finish)
                         binding.buttonNext.setOnClickListener {
                             viewModel.saveOnboarding(true)
                             requireView().findNavController()
                                 .navigate(OnboardingFragmentDirections.actionOnboardingFragmentToGameFragment())
                         }
                     } else {
-                        binding.buttonNext.text = "Next"
+                        binding.buttonNext.text = requireContext().getString(com.comma.uikit.R.string.next)
                         binding.buttonNext.setOnClickListener {
                             binding.viewPager.currentItem.let {
                                 binding.viewPager.setCurrentItem(it + 1, false)

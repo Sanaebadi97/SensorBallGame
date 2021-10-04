@@ -20,6 +20,5 @@ class OnboardingViewModel @Inject constructor(private val preference: DataStoreP
         }
     }
 
-    //for Splash Screen
     fun fetchOnboarding() = preference.fetchOnboarding().asLiveData()
 }
