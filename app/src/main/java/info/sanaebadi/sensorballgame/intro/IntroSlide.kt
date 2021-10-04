@@ -1,4 +1,4 @@
-package info.sanaebadi.sensorballgame
+package info.sanaebadi.sensorballgame.intro
 
 data class IntroSlide (
     val title: String,

@@ -1,4 +1,4 @@
-package info.sanaebadi.sensorballgame
+package info.sanaebadi.sensorballgame.intro
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

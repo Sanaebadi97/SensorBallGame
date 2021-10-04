@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import dagger.hilt.android.AndroidEntryPoint
 import info.sanaebadi.sensorballgame.databinding.FragmentGameBinding
 
 private const val ARG_PARAM1 = "param1"
@@ -12,6 +13,7 @@ private const val ARG_PARAM2 = "param2"
 private var _binding: FragmentGameBinding? = null
 private val binding get() = _binding!!
 
+@AndroidEntryPoint
 class GameFragment : Fragment() {
     private var param1: String? = null
     private var param2: String? = null
