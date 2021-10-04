@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="single_select_text_button_elevation">0dp</dimen>
+    <dimen name="housing_address_item_elevation">4dp</dimen>
+    <dimen name="no_elevation">0dp</dimen>
+    <dimen name="map_card_view_elevation">24dp</dimen>
+    <dimen name="toolbar_elevation">6dp</dimen>
+    <dimen name="curved_toolbar_view_elevation">32dp</dimen>
+    <dimen name="subscribe_elevation">6dp</dimen>
+    <dimen name="reminder_item_elevation">0dp</dimen>
+    <dimen name="property_list_item_elevation">2dp</dimen>
+    <dimen name="elevated_card_view_elevation">4dp</dimen>
+</resources>

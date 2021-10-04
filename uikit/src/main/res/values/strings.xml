@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">uikit</string>
+    <string name="next">Next</string>
+    <string name="titleText">"WellnessCity,\nPrioritize Living a Healthy life "</string>
+    <string name="bannerText">"Covid 19 Prevention Tips\nAvoid close contact\nWear your face mask\nClean your hands often "</string>
+</resources>
