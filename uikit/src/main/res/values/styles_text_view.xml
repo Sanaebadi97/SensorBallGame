@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.SarresidComponents.TextView.Body8" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textAppearance">@style/TextAppearance.BallGame.Body8</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+    </style>
+
+</resources>
