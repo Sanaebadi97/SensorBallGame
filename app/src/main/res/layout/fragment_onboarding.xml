@@ -27,6 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/spacing_m"
         android:text="@string/next"
+        android:fontFamily="@font/ubuntu_bold"
         android:textColor="@android:color/white"
         android:textStyle="bold"
         app:backgroundTint="@color/purple_900"
