@@ -14,6 +14,7 @@ output:
 
 **Approach:**
 
+- used uikit module for value resource
 - Post-development testing
 - Drawing multiple balls
 - Using the Accelerometer
