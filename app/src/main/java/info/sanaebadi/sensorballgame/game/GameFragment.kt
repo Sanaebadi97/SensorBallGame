@@ -1,4 +1,4 @@
-package info.sanaebadi.sensorballgame
+package info.sanaebadi.sensorballgame.game
 
 import android.content.Context
 import android.hardware.Sensor

@@ -18,7 +18,7 @@
     </fragment>
     <fragment
         android:id="@+id/gameFragment"
-        android:name="info.sanaebadi.sensorballgame.GameFragment"
+        android:name="info.sanaebadi.sensorballgame.game.GameFragment"
         android:label="fragment_game"
         tools:layout="@layout/fragment_game" />
 </navigation>
