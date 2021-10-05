@@ -17,6 +17,11 @@ output:
 - Post-development testing
 - Drawing multiple balls
 - Using the Accelerometer
+- Firebase fireStore
+- Onboarding Intro
+- Mvvm Pattern
+- clean Code 
+- Observance of solid principles
 
 
 
