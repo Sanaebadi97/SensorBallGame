@@ -22,7 +22,7 @@
         tools:text="Title Text"
         android:textColor="@color/purple_400"
         android:textSize="18sp"
-        android:textStyle="bold"
+        android:fontFamily="@font/ubuntu_bold"
         app:layout_constraintTop_toBottomOf="@id/imageSlideIcon" />
 
     <TextView
@@ -31,7 +31,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
+        android:layout_marginTop="@dimen/spacing_m"
         android:gravity="center"
+        android:fontFamily="@font/ubuntu_regular"
         tools:text="Description Text"
         android:textColor="@color/black"
         android:textSize="15sp"

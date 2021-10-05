@@ -1,10 +1,13 @@
 package info.sanaebadi.sensorballgame.intro
 
+import android.os.Build
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.WindowInsets
 import android.view.animation.AnimationUtils
+import androidx.annotation.RequiresApi
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.findNavController
@@ -50,6 +53,7 @@ class OnboardingFragment : Fragment() {
         return binding.root
     }
 
+    @RequiresApi(Build.VERSION_CODES.R)
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.viewPager.adapter = introSliderAdapter
@@ -81,6 +85,7 @@ class OnboardingFragment : Fragment() {
                 }
             })
     }
+
 
     override fun onDestroyView() {
         super.onDestroyView()
