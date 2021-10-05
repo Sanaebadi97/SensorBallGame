@@ -1,13 +1,14 @@
 {
   "project_info": {
     "project_number": "440922092035",
+    "firebase_url": "https://interview-cd8d0-default-rtdb.firebaseio.com",
     "project_id": "interview-cd8d0",
     "storage_bucket": "interview-cd8d0.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:440922092035:android:f35be5da4e95b468779436",
+        "mobilesdk_app_id": "1:440922092035:android:8f24369b4aa3abd5779436",
         "android_client_info": {
           "package_name": "info.sanaebadi.sensorballgame"
         }
