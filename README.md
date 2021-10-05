@@ -27,6 +27,4 @@ output:
 
 
 
-apk url download directly: https://mega.nz/file/FU8CQZoA#wNl3dtzX1_46jiB_-M80U-ABjej84mR7_KNS-HH3Fg4
-
 [APK URL](https://mega.nz/file/FU8CQZoA#wNl3dtzX1_46jiB_-M80U-ABjej84mR7_KNS-HH3Fg4)
