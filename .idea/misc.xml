@@ -5,6 +5,7 @@
       <map>
         <entry key="app/src/main/res/drawable/indicator_active.xml" value="0.167" />
         <entry key="app/src/main/res/drawable/indicator_inactive.xml" value="0.167" />
+        <entry key="app/src/main/res/layout/fragment_game.xml" value="0.13728470111448834" />
         <entry key="app/src/main/res/layout/fragment_onboarding.xml" value="0.13728470111448834" />
         <entry key="app/src/main/res/layout/fragment_splash.xml" value="0.2033514492753623" />
         <entry key="app/src/main/res/layout/onboarding_item.xml" value="0.13728470111448834" />
